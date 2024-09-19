@@ -127,7 +127,17 @@ class SiteController extends Controller
     }
 
 
-    public function actionFeature1()
+    public function actionFeature1(){
+        return $this->render('about');
+
+    }
+
+    public function actionSF1()
+    {
+        return $this->render('about');
+    }
+    public function actionSF2()
+
     {
         return $this->render('about');
     }
@@ -136,4 +146,6 @@ class SiteController extends Controller
     {
         return $this->render('about');
     }
+
+
 }
